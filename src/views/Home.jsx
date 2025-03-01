@@ -1,10 +1,10 @@
-import React from 'react'
-import { TypeAnimation } from 'react-type-animation'
-import { Link } from 'react-router-dom'
-import LogoLinkedin from '../../public/logo-linkedin.png'
-import LogoGithub from '../../public/logo-github.png'
-import LogoDiscord from '../../public/logo-discord.png'
-import LogoInstagram from '../../public/logo-instagram.png'
+import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
+import LogoLinkedin from '../../public/logo-linkedin.png';
+import LogoGithub from '../../public/logo-github.png';
+import LogoDiscord from '../../public/logo-discord.png';
+import LogoInstagram from '../../public/logo-instagram.png';
 
 const Home = () => {
   return (

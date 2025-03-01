@@ -1,0 +1,57 @@
+.project {
+    display: flex;
+    margin: 20px 0 50px 0;
+}
+
+.sessao-imagem {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /*background-color: rgb(74, 222, 82);*/
+}
+
+.sessao-informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    /*background-color: rgb(53, 151, 151);*/
+    padding: 0 20px 0 20px;
+}
+
+.foto-projeto{
+    height: 340px;
+    width: 540px;
+    border: 3px solid white;
+}
+
+.nome-projeto {
+    font-size: 30px;
+    color: #BBC6FF;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.repositorio {
+    display: flex;
+    height: 40px;
+    width: 140px;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.nome-rep {
+    font-size: 15px;
+    color: black;
+}
+
+.logo-repositorio {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}

@@ -8,15 +8,12 @@ export const tecnologias = [
 
     { name: "Next", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", alt:"Next"},
 
-    { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html/html-original.svg", alt:"HTML"},
+    { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt:"HTML"},
 
-    { name: "css", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css/css-original.svg", alt:"CSS"},
-
-    { name: "Node", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", alt:"Node"},
+    { name: "css", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt:"CSS"},
 
     { name: "Node", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", alt:"Node"},
 
-    { name: "Node", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", alt:"Node"},
+    { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" }
 
-    { name: "Node", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", alt:"Node"}
 ]
