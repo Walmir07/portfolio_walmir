@@ -8,7 +8,7 @@ import LogoInstagram from '../../public/logo-instagram.png'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container-home'>
         <div className='elementos'>
           <p className='paragrafo1'>Olá, meu nome é</p>
           <h1 className='nome'>WALMIR LIMA</h1>
@@ -26,7 +26,7 @@ const Home = () => {
                 style={{ color: '#BBC6FF' }}
             />
           </h1>
-          <p className='paragrafo2'>Innovating the web with purpose and precision. As a full-stack engineer, I create accessible, user-friendly digital experiences that leave a lasting impact.</p>
+          <p className='paragrafo-padrao'>Innovating the web with purpose and precision. As a full-stack engineer, I create accessible, user-friendly digital experiences that leave a lasting impact.</p>
           <div className='contatos'>
             <a href='https://www.linkedin.com/in/walmir-lima-da-silva-442300283/' target='_blank'>
                 <img className='img-contato' src={LogoLinkedin} alt="Logo do Linkedin"/>

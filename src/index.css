@@ -16,7 +16,7 @@ html, body {
 
 /* Home */
 
-.container {
+.container-home {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -51,7 +51,7 @@ html, body {
   color: #48DCFD;
 }
 
-.paragrafo2 {
+.paragrafo-padrao {
   font-size: 25px;
 }
 
@@ -60,4 +60,50 @@ html, body {
   width: 30px;
   border-radius: 5px;
   margin-right: 35px;
+}
+
+/* About */
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: flex-start;
+  padding: 30px;
+  /*background-color:aquamarine;*/
+}
+
+.topico {
+  font-size: 40px;
+  color: #BBC6FF;
+  margin-bottom: 30px;
+}
+
+.sessao1 {
+  /*background-color: beige;*/
+  display: flex;
+}
+
+.area-descricao {
+  width: 50%;
+}
+
+.area-foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /*background-color: #48DCFD;*/
+}
+
+.foto {
+  height: 250px;
+  width: 250px;
+}
+
+.ferramentas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
