@@ -26,7 +26,7 @@ const About = () => {
                 <Tools
                     key={index}
                     name={item.name}
-                    src={item.src}
+                    link={item.link}
                     alt={item.alt}
                 />
             ))}
