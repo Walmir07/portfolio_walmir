@@ -5,20 +5,18 @@ import Home from './views/Home.jsx';
 import About from './views/About.jsx';
 import Projects from './views/Projects.jsx';
 import Contact from './views/Contact.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
 
   return (
       <div>
-        <BrowserRouter>
-          <Header></Header>
-          <Routes>
-            <Route path='/' element={<Home></Home>}></Route>
-            <Route path='/sobre' element={<About></About>}></Route>
-            <Route path='/projetos' element={<Projects></Projects>}></Route>
-            <Route path='/contato' element={<Contact></Contact>}></Route>
-          </Routes>
-        </BrowserRouter>
+        <Header/>
+        <Home/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
       </div>
    )
 }
