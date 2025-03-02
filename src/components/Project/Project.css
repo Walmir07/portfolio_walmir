@@ -55,3 +55,24 @@
     width: 30px;
     border-radius: 20px;
 }
+
+.repositorio-tecnologias {
+    display: flex;
+    gap: 50px;
+}
+
+.tecnologias-usadas {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.tecnologias-usadas::-webkit-scrollbar {
+    width: 2px;
+    height: 3px;
+}
+
+.icone {
+    height: 40px;
+    width: 40px;
+}

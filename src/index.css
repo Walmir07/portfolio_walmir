@@ -119,3 +119,15 @@ html, body {
   padding: 30px;
   /*background-color:aquamarine;*/
 }
+
+/* Contact */
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: flex-start;
+  padding: 30px;
+  /*background-color:aquamarine;*/
+}
