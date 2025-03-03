@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import LogoLinkedin from '/logo-linkedin.png';
 import LogoGithub from '/logo-github.png';
 import LogoDiscord from '/logo-discord.png';
-import LogoInstagram from 'logo-instagram.png';
+import LogoInstagram from '/logo-instagram.png';
 
 const Home = () => {
   return (
