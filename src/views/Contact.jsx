@@ -1,8 +1,8 @@
 import React from 'react'
-import LogoLinkedin from '../../public/logo-linkedin.png';
-import LogoGithub from '../../public/logo-github.png';
-import LogoDiscord from '../../public/logo-discord.png';
-import LogoInstagram from '../../public/logo-instagram.png';
+import LogoLinkedin from '/public/logo-linkedin.png';
+import LogoGithub from '/public/logo-github.png';
+import LogoDiscord from '/logo-discord.png';
+import LogoInstagram from '/logo-instagram.png';
 
 const Contact = () => {
   return (

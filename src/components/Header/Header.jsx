@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoWl from '../../../public/logo-wl.png';
+import LogoWl from '/logo-wl.png';
 import './Header.css';
 
 
