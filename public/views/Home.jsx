@@ -6,9 +6,9 @@ import LogoGithub from '/logo-github.png';
 import LogoDiscord from '/logo-discord.png';
 import LogoInstagram from '/logo-instagram.png';
 
-const Home = ({ id }) => {
+const Home = () => {
   return (
-    <div id={id} className='container-home'>
+    <div className='container-home'>
         <div className='elementos'>
           <p className='paragrafo1'>Olá, meu nome é</p>
           <h1 className='nome'>WALMIR LIMA</h1>
@@ -26,7 +26,7 @@ const Home = ({ id }) => {
                 style={{ color: '#BBC6FF' }}
             />
           </h1>
-          <p className='paragrafo-padrao'>Inovando a web com propósito e precisão. Como desenvolvedor FullStack, construo experiências digitais acessíveis e intuitivas, deixando um impacto duradouro.</p>
+          <p className='paragrafo-padrao'>Inovando a web com propósito e precisão. Como desenvolvedor fullstack, construo experiências digitais acessíveis e intuitivas, deixando um impacto duradouro.</p>
           <div className='contatos'>
             <a href='https://www.linkedin.com/in/walmir-lima-da-silva-442300283/' target='_blank'>
                 <img className='img-contato' src={LogoLinkedin} alt="Logo do Linkedin"/>

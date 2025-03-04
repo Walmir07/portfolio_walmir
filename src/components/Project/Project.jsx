@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 
-const Project = ({ foto, nome, descricao, iconesTec }) => {
+const Project = ({ foto, nome, descricao, iconesTec, linkRepositorio }) => {
   return (
     <div className='project'>
         <div className='sessao-imagem'>
@@ -12,10 +12,10 @@ const Project = ({ foto, nome, descricao, iconesTec }) => {
             <p className='descricao'>{descricao}
             </p>
             <div className='repositorio-tecnologias'>
-              <div className='repositorio'>
+              <a href={linkRepositorio} className='repositorio' target='_blank'>
                   <p className='nome-rep'>Repositório</p>
                   <img className='logo-repositorio' src='/logo-github.png' alt='Logo GitHub'></img>
-              </div>
+              </a>
               <div className='tecnologias-usadas'>
               {iconesTec.map((icone, index) => (
                 <img key={index} className='icone' src={icone} alt={`Icone da tecnologia ${index + 1}`} />

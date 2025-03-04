@@ -4,9 +4,9 @@ import LogoGithub from '/public/logo-github.png';
 import LogoDiscord from '/logo-discord.png';
 import LogoInstagram from '/logo-instagram.png';
 
-const Contact = ({ id }) => {
+const Contact = () => {
   return (
-    <div id={id} className='container-contact'>
+    <div className='container-contact'>
       <h1 className='topico'>Contato</h1>
       <div className="sessoes-cont">
         <form className="formulario">

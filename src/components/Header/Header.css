@@ -1,49 +1,53 @@
 .header {
-    display: flex;
-    height: 80px;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid white;
-  }
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #000000;
+  border-bottom: 1px solid white;
+}
   
-  .navegacao {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    padding: 0 20px 0 20px;
-  }
+.navegacao {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px 0 20px;
+}
   
-  .link-wl {
-    display: flex;
-    width: 100%;
-    align-items: center;
-  }
+.link-wl {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
   
-  .indices {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: end;
-  }
+.indices {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}
   
-  ul {
-    display: flex;
-    list-style: none;
-  }
+ul {
+  display: flex;
+  list-style: none;
+}
   
-  li {
-    margin: 20px;
-  }
+li {
+  margin: 20px;
+}
   
-  a {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #BBC6FF;
-  }
+.links {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #BBC6FF;
+  cursor: pointer;
+}
   
-  .logo-wl {
-    height: 65px;
-    width: 100px;
-  }
+.logo-wl {
+  height: 65px;
+  width: 100px;
+}

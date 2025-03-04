@@ -2,9 +2,9 @@ import React from 'react';
 import Tools from '../components/Tools/Tools.jsx';
 import { tecnologias } from '../constants';
 
-const About = ({ id }) => {
+const About = () => {
   return (
-    <div id={id} className='container-about'>
+    <div className='container-about'>
         <h1 className='topico'>Sobre mim</h1>
         <div className='sessao1'>
             <div className="area-descricao">

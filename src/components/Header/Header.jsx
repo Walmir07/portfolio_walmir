@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoWl from '/logo-wl.png';
+import { Link } from 'react-scroll';
 import './Header.css';
 
 
@@ -15,16 +16,16 @@ const Header = () => {
             <div className='indices'>
               <ul>
                 <li>
-                  <a href='#'>Home</a>
+                  <Link className='links' to="home" smooth={true} duration={500}>Home</Link>
                 </li>
                 <li>
-                <a href='#'>Sobre</a>
+                  <Link className='links' to="sobre" smooth={true} duration={500}>Sobre</Link>
                 </li>
                 <li>
-                <a href='#'>Projetos</a>
+                  <Link className='links' to="projetos" smooth={true} duration={500}>Projetos</Link>
                 </li>
                 <li>
-                <a href='#'>Contato</a>
+                  <Link className='links' to="contatos" smooth={true} duration={500}>Contato</Link>
                 </li>
               </ul>
             </div>
