@@ -19,13 +19,13 @@ const Header = () => {
                   <Link className='links' to="home" smooth={true} duration={500}>Home</Link>
                 </li>
                 <li>
-                  <Link className='links' to="sobre" smooth={true} duration={500}>Sobre</Link>
+                  <Link className='links' to="sobre" smooth={true} duration={500}offset={-100}>Sobre</Link>
                 </li>
                 <li>
-                  <Link className='links' to="projetos" smooth={true} duration={500}>Projetos</Link>
+                  <Link className='links' to="projetos" smooth={true} duration={500}offset={-100}>Projetos</Link>
                 </li>
                 <li>
-                  <Link className='links' to="contatos" smooth={true} duration={500}>Contato</Link>
+                  <Link className='links' to="contatos" smooth={true} duration={500}offset={-100}>Contato</Link>
                 </li>
               </ul>
             </div>

@@ -197,6 +197,7 @@ html, body {
   padding: 15px;
   border: none;
   margin: 20px 0 20px 0;
+  cursor: pointer;
 }
 
 .redes-sociais {
