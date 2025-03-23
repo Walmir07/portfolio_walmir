@@ -31,6 +31,14 @@ const Projects = ({ id }) => {
             iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoMongodb, LogoGit]}
         />
 
+        <Project
+            nome="Meu portfólio"
+            foto="/tela-portfolio.png"
+            descricao="Este projeto se baseia em um portfólio responsável por apresentar informações e projetos pessoais desenvolvidos durente o meu aprendizado de programação. Durante o desenvolvimento desse projeto pude fazer uso de diversas ferramentas importantes e até mesmo aplicar meus conhecimentos deprogramação, pois por se tratar de um projeto próprio, estive desde a prototipação, até desenvolvimento das interfaces e funcionalidades."
+            linkRepositorio="https://github.com/Walmir07/portfolio-walmir"
+            iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoMongodb, LogoGit]}
+        />
+
     </div>
   )
 }
