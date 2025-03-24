@@ -1,0 +1,46 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  /*background-color:aquamarine;*/
+}
+  
+.elementos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 50%;
+  /*background-color: lightcoral;*/
+  flex-grow: 1;
+  padding: 20px;
+  gap: 30px;
+}
+ 
+.nome {
+  font-size: 70px;
+  color: #BBC6FF;
+}
+  
+.animacao {
+  font-size: 40px;
+}
+  
+.paragrafo1 {
+  font-size: 25px;
+  color: #48DCFD;
+}
+
+.paragrafo-padrao {
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+}
+
+.img-contato {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  margin-right: 35px;
+}

@@ -1,0 +1,45 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  padding: 30px;
+  /*background-color:aquamarine;*/
+}
+  
+.topico {
+  font-size: 40px;
+  color: #BBC6FF;
+  margin: 30px 0 30px 0;
+}
+  
+.sessao1 {
+  /*background-color: beige;*/
+  display: flex;
+}
+  
+.area-descricao {
+  width: 50%;
+  margin: 20px 0 20px 0;
+}
+  
+.area-foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /*background-color: #48DCFD;*/
+}
+  
+.foto {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+}
+  
+.ferramentas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}  

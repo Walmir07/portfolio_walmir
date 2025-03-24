@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contact.css';
 import LogoLinkedin from '/public/logo-linkedin.png';
 import LogoGithub from '/public/logo-github.png';
 import LogoDiscord from '/logo-discord.png';

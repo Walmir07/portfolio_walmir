@@ -1,0 +1,9 @@
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  padding: 30px;
+  /*background-color:aquamarine;*/
+}

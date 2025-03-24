@@ -1,5 +1,6 @@
 import React from 'react';
-import Project from '../components/Project/Project.jsx';
+import './Projects.css';
+import Project from '../../components/Project/Project.jsx';
 import LogoJavaScript from '/logo-javascript.png';
 import LogoReact from '/logo-react.png';
 import LogoNext from '/logo-next.png';
@@ -37,6 +38,14 @@ const Projects = ({ id }) => {
             descricao="Este projeto se baseia em um portfólio responsável por apresentar informações e projetos pessoais desenvolvidos durente o meu aprendizado de programação. Durante o desenvolvimento desse projeto pude fazer uso de diversas ferramentas importantes e até mesmo aplicar meus conhecimentos deprogramação, pois por se tratar de um projeto próprio, estive desde a prototipação, até desenvolvimento das interfaces e funcionalidades."
             linkRepositorio="https://github.com/Walmir07/portfolio-walmir"
             iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoMongodb, LogoGit]}
+        />
+
+<Project
+            nome="RecruitSync"
+            foto="/foto-recruitsync.jpeg"
+            descricao="O RecruitSync é um sistema desenvolvido para gerenciar e otimizar a seleção de candidatos em projetos de pesquisa e extensão. Com ele, o coordenador do projeto pode acessar os dados dos inscritos, avaliá-los em diferentes etapas e selecionar os mais aptos para integrar a sua equipe. Esse software foi criado para atender a necessidade de um professor que enfrentou dificuldades na formalização desse processo, o sistema se tornou uma solução eficiente para tornar a seleção mais organizada, ágil e precisa. Seu desenvolvimento foi feito por meio de tecnologias modernas e integração com banco de dados."
+            linkRepositorio="https://github.com/Walmir07/RecruitSync"
+            iconesTec={[LogoJavaScript, LogoReact, LogoNext, LogoPostgres, LogoGit, LogoFigma]}
         />
 
     </div>

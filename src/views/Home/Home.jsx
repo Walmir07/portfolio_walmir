@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import { TypeAnimation } from 'react-type-animation';
 import { Link } from 'react-router-dom';
 import LogoLinkedin from '/logo-linkedin.png';

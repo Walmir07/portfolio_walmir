@@ -1,6 +1,7 @@
 import React from 'react';
-import Tools from '../components/Tools/Tools.jsx';
-import { tecnologias } from '../constants';
+import './About.css';
+import Tools from '../../components/Tools/Tools.jsx';
+import { tecnologias } from '../../constants.js';
 
 const About = ({ id }) => {
   return (
