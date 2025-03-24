@@ -8,12 +8,6 @@
   /*background-color:aquamarine;*/
 }
   
-.topico {
-  font-size: 40px;
-  color: #BBC6FF;
-  margin: 30px 0 30px 0;
-}
-  
 .sessao1 {
   /*background-color: beige;*/
   display: flex;
@@ -31,7 +25,12 @@
   width: 50%;
   /*background-color: #48DCFD;*/
 }
-  
+
+.paragrafo-padrao {
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+}
+
 .foto {
   border-radius: 20px;
   height: 300px;
@@ -40,6 +39,55 @@
   
 .ferramentas {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-}  
+}
+
+/*    Responsividade     */
+
+/* Notebooks e telas médias */
+@media (max-width: 1199px) {
+
+}
+  
+/* Tablets */
+@media (max-width: 991px) {
+
+}
+
+/* Celulares grandes */
+@media (max-width: 767px) {
+    
+}
+
+/* Celulares pequenos */
+@media (max-width: 575px) {
+    .sessao1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .paragrafo-padrao{
+        font-size: 35px;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: justify;
+        padding: 0 50px 0 50px;
+    }
+    .area-descricao{
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+    .area-foto{
+        width: 100%;
+    }
+    .foto{
+        height: 400px;
+        width: 400px;
+    }
+    .ferramentas{   
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0 50px 0 50px;
+    }
+}

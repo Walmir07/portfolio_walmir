@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer.jsx';
 function App() {
 
   return (
-      <div>
+      <div className='telas'>
         <Header/>
         <Home id="home"/>
         <About id="sobre"/>

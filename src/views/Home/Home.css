@@ -36,6 +36,9 @@
 .paragrafo-padrao {
   font-size: 25px;
   margin: 20px 0 20px 0;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: justify;
 }
 
 .img-contato {
@@ -43,4 +46,37 @@
   width: 30px;
   border-radius: 5px;
   margin-right: 35px;
+}
+
+/*    Responsividade     */
+
+/* Notebooks e telas médias */
+@media (max-width: 1199px) {
+
+}
+  
+/* Tablets */
+@media (max-width: 991px) {
+
+}
+
+/* Celulares grandes */
+@media (max-width: 767px) {
+    
+}
+
+/* Celulares pequenos */
+@media (max-width: 575px) {
+    .elementos{
+        width: 100%;
+        gap: 40px;
+        padding: 0 20px 0 20px;
+    }
+    .paragrafo-padrao{
+        font-size: 35px;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: justify;
+        padding: 0 50px 0 50px;
+    }
 }

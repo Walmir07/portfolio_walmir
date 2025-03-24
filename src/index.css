@@ -10,6 +10,47 @@
 }
 
 html, body {
+  display: flex;
   background-color: #000000;
-  height: 100vh;
+  width: 100%;
+}
+
+.topico {
+  font-size: 40px;
+  color: #BBC6FF;
+  margin: 30px 0 30px 0;
+}
+
+.paragrafo-padrao {
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: justify;
+}
+
+/*    Responsividade     */
+
+/* Notebooks e telas médias */
+@media (max-width: 1199px) {
+  .paragrafo-padrao{
+    font-size: 22px;
+  }
+}
+  
+/* Tablets */
+@media (max-width: 991px) {
+
+}
+
+/* Celulares grandes */
+@media (max-width: 767px) {
+    
+}
+
+/* Celulares pequenos */
+@media (max-width: 575px) {
+  .topico{
+    font-size: 50px;
+  }
 }

@@ -77,3 +77,82 @@
     height: 40px;
     width: 40px;
 }
+
+/*    Responsividade     */
+
+/* Notebooks e telas médias */
+@media (max-width: 1199px) {
+
+}
+  
+/* Tablets */
+@media (max-width: 991px) {
+
+}
+
+/* Celulares grandes */
+@media (max-width: 767px) {
+    
+}
+
+/* Celulares pequenos */
+@media (max-width: 575px) {
+    .project{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 30px;
+        gap: 60px;
+    }
+    .sessao-informacoes{
+        width: 100%;
+        gap: 50px;
+    }
+    .nome-projeto{
+        font-size: 40px;
+    }
+    .sessao-imagem {
+        justify-content: center;
+        width: 100%;
+    }
+    .descricao {
+        font-size: 30px;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: justify;
+    }
+    .foto-projeto{
+        height: 450px;
+        width: 740px;
+        border: 3px solid white;
+    }
+
+    .repositorio {
+        display: flex;
+        height: 60px;
+        width: 200px;
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .nome-rep {
+        font-size: 22px;
+    }
+
+    .logo-repositorio {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .tecnologias-usadas {
+        display: flex;
+        gap: 25px;
+        overflow-x: auto;
+    }
+    
+    .icone {
+        height: 60px;
+        width: 60px;
+    }
+
+
+}
