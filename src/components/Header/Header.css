@@ -52,6 +52,7 @@ li {
   height: 65px;
   width: 100px;
 }
+
 /*    Responsividade     */
 
 /* Notebooks e telas médias */
@@ -78,7 +79,14 @@ li {
 
 /* Celulares pequenos */
 @media (max-width: 575px) {
+  .header{
+    height: 120px;
+  }
   .links{
-    font-size: 18px;
+    font-size: 25px;
+  }
+  .logo-wl {
+    height: 90px;
+    width: 130px;
   }
 }

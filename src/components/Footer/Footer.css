@@ -12,3 +12,30 @@
     font-size: 15px;
     margin: 20px;
 }
+
+/*    Responsividade     */
+
+/* Notebooks e telas médias */
+@media (max-width: 1199px) {
+    
+}
+  
+/* Tablets */
+@media (max-width: 991px) {
+  
+}
+
+/* Celulares grandes */
+@media (max-width: 767px) {
+  
+}
+
+/* Celulares pequenos */
+@media (max-width: 575px) {
+  .footer{
+    height: 100px;
+  }
+  .texto-footer{
+    font-size: 20px;
+  }
+}

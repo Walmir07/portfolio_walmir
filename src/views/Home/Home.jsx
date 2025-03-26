@@ -27,7 +27,7 @@ const Home = ({ id }) => {
                 style={{ color: '#BBC6FF' }}
             />
           </h1>
-          <p className='paragrafo-padrao'>Inovando a web com propósito e precisão. Como desenvolvedor FullStack, construo experiências digitais acessíveis e intuitivas, deixando um impacto duradouro.</p>
+          <p className='paragrafo-home'>Inovando a web com propósito e precisão. Como desenvolvedor FullStack, construo experiências digitais acessíveis e intuitivas, deixando um impacto duradouro.</p>
           <div className='contatos'>
             <a href='https://www.linkedin.com/in/walmir-lima-da-silva-442300283/' target='_blank'>
                 <img className='img-contato' src={LogoLinkedin} alt="Logo do Linkedin"/>

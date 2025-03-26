@@ -101,31 +101,29 @@
         justify-content: center;
         align-items: center;
     }
-    .formulario{ 
-        justify-content: center;
-        align-items: center;
+    .formulario{
+        padding: 30px;
     }
 
     .titulos-form {
-      text-align: start;
-      font-size: 20px;
+      font-size: 30px;
       color: #BBC6FF;
     }
         
     .inputs {
       height: 65px;
-      width: 90%;
+      width: 100%;
       font-size: 25px;
     }
     .mensagem {
-        height: 170px;
-        width: 90%;
-        font-size: 25px;
-      }
-      .enviar-form {
-        height: 65px;
-        width: 90%;
-        font-size: 30px;
-        color: black;
-      }
+      height: 170px;
+      width: 100%;
+      font-size: 25px;
+    }
+    .enviar-form {
+      height: 65px;
+      width: 100%;
+      font-size: 30px;
+      color: black;
+    }
 }
