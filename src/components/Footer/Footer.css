@@ -22,12 +22,22 @@
   
 /* Tablets */
 @media (max-width: 991px) {
-  
+    .footer{
+        height: 100px;
+      }
+     .texto-footer{
+        font-size: 18px;
+    }
 }
 
 /* Celulares grandes */
 @media (max-width: 767px) {
-  
+    .footer{
+        height: 100px;
+      }
+     .texto-footer{
+        font-size: 20px;
+    }
 }
 
 /* Celulares pequenos */

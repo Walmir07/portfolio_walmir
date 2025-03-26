@@ -57,12 +57,16 @@
   
 /* Tablets */
 @media (max-width: 991px) {
-
+  .container-home{
+    padding: 50% 0 50% 0;
+  }  
 }
 
 /* Celulares grandes */
 @media (max-width: 767px) {
-    
+  .container-home{
+    padding: 50% 0 50% 0;
+  }    
 }
 
 /* Celulares pequenos */

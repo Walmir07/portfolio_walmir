@@ -81,17 +81,56 @@
 
 /* Notebooks e telas médias */
 @media (max-width: 1199px) {
-
+  .formulario{
+    padding: 25px;
+ }
+ .sessao-contatos{
+    padding: 25px;
+ }
 }
   
 /* Tablets */
 @media (max-width: 991px) {
-
+  .formulario{
+    padding: 30px;
+ }
+ .sessao-contatos{
+    padding: 30px;
+ }
 }
 
 /* Celulares grandes */
 @media (max-width: 767px) {
+  .sessoes-cont{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario{
+    padding: 30px;
+ }
+
+.titulos-form {
+  font-size: 30px;
+  color: #BBC6FF;
+}
     
+.inputs {
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+}
+.mensagem {
+  height: 160px;
+  width: 100%;
+  font-size: 20px;
+}
+.enviar-form {
+  height: 60px;
+  width: 100%;
+  font-size: 25px;
+  color: black;
+}
 }
 
 /* Celulares pequenos */

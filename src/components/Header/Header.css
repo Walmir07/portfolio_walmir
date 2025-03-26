@@ -65,15 +65,29 @@ li {
   
 /* Tablets */
 @media (max-width: 991px) {
+  .header{
+    height: 100px;
+  }
   .links{
-    font-size: 18px;
+    font-size: 23px;
+  }
+  .logo-wl {
+    height: 80px;
+    width: 120px;
   }
 }
 
 /* Celulares grandes */
 @media (max-width: 767px) {
+  .header{
+    height: 120px;
+  }
   .links{
-    font-size: 18px;
+    font-size: 25px;
+  }
+  .logo-wl {
+    height: 90px;
+    width: 130px;
   }
 }
 
