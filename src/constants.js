@@ -24,4 +24,4 @@ export const tecnologias = [
 
     { name: "GitHub", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", alt:"GitHub"}
 
-]
+];

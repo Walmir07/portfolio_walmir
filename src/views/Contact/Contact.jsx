@@ -10,15 +10,17 @@ const Contact = ({ id }) => {
     <div id={id} className='container-contact'>
       <h1 className='topico'>Contato</h1>
       <div className="sessoes-cont">
-        <form className="formulario">
+        
+        <form className="formulario" action="https://formsubmit.co/227d5d2fbccb061f624e91fb02f730f5" method="POST">
           <h2 className="titulos-form">Nome</h2>
-          <input className='inputs' type="text" />
+          <input className='inputs' type="text" name="name" required/>
           <h2 className="titulos-form">Email</h2>
-          <input className='inputs' type="text"/>
+          <input className='inputs' type="text" name="email" required/>
           <h2 className="titulos-form">Mensagem</h2>
-          <textarea name="mensagem" className="mensagem"></textarea>
-          <button className='enviar-form'>Enviar mensagem</button>
+          <textarea  className="mensagem" name="mensagem" required></textarea>
+          <button className='enviar-form' type='submit'>Enviar mensagem</button>
         </form>
+        
         <div className="sessao-contatos">
           <h2 className="titulos-form">Email</h2>
           <p className='paragrafo-padrao'>walmirlima046@gmail.com</p>
