@@ -11,7 +11,7 @@ const Contact = ({ id }) => {
       <h1 className='topico'>Contato</h1>
       <div className="sessoes-cont">
         
-        <form className="formulario" action="https://formsubmit.co/227d5d2fbccb061f624e91fb02f730f5" method="POST">
+        <form className="formulario" action="https://formsubmit.co/walmirlima046@gmail.com" method="POST">
           <h2 className="titulos-form">Nome</h2>
           <input className='inputs' type="text" name="name" required/>
           <h2 className="titulos-form">Email</h2>
