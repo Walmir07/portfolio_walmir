@@ -1,0 +1,19 @@
+.downloadCV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid cyan;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 240px;
+    height: 60px;
+    margin: 50px 0;
+}
+
+.downloadCV:hover {
+    background-color: rgb(128, 253, 253);
+    border: 2px solid #BBC6FF;
+    color: black;
+}
