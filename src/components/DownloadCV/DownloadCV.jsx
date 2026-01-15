@@ -3,7 +3,7 @@ import './DownloadCV.css';
 
 const DownloadCV = () => {
   return (
-    <a className='downloadCV' href="/walmir-lima-cv.pdf" download="/walmir-lima-cv"> Baixar currículo
+    <a className='downloadCV' href="/WalmirResumeLtx.pdf" download="/WalmirResumeLtx"> Baixar currículo
     </a>
   )
 }

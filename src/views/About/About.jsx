@@ -10,7 +10,7 @@ const About = ({ id }) => {
         <h1 className='topico'>Sobre mim</h1>
         <div className='sessao1'>
             <div className="area-descricao">
-                <p className='paragrafo-padrao'>Olá, me chamo Walmir Lima. Atualmente, sou Técnico em Informática pelo IFPB e um entusiasta no mundo da programação. Sou um desenvolvedor apaixonado por tecnologia e sempre em busca de crescimento profissional. Gosto de explorar novos desafios que ampliem minhas habilidades e me permitam criar soluções inovadoras. Com um forte interesse em desenvolvimento fullstack, estou constantemente aprendendo e aprimorando meus conhecimentos para contribuir com projetos que fazem a diferença.
+                <p className='paragrafo-padrao'>Olá, me chamo Walmir Lima e sou graduando em Análise e Desenvolvimento de Sistemas e Técnico em Informática pelo IFPB. Sou entusiasta no mundo da programação e um desenvolvedor apaixonado por tecnologia, sempre em buscando crescimento profissional. Gosto de explorar novos desafios que ampliem minhas habilidades e me permitam criar soluções inovadoras. Com um forte interesse em desenvolvimento fullstack, estou constantemente aprendendo e aprimorando meus conhecimentos para contribuir com projetos que fazem a diferença.
                 </p>
                 <DownloadCV/>
             </div>

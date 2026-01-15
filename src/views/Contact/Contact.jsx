@@ -1,7 +1,8 @@
 import React from 'react'
 import './Contact.css';
-import LogoLinkedin from '/public/logo-linkedin.png';
-import LogoGithub from '/public/logo-github.png';
+import LogoLinkedin from '/logo-linkedin.png';
+import LogoGithub from '/logo-github.png';
+import LogoGitlab from '/logo-gitlab.png';
 import LogoDiscord from '/logo-discord.png';
 import LogoInstagram from '/logo-instagram.png';
 
@@ -31,6 +32,9 @@ const Contact = ({ id }) => {
               </a>
               <a href='https://github.com/Walmir07' target="_blank">
                   <img className='img-contato' src={LogoGithub} alt="Logo do GitHub" />
+              </a>
+              <a href='https://gitlab.com/Walmir07' target="_blank">
+                  <img className='img-contato' src={LogoGitlab} alt="Logo do GitLab" />
               </a>
               <a href='https://discord.gg/walmir333' target='_blank'>
                   <img className='img-contato' src={LogoDiscord} alt="Logo do Discord"/>
