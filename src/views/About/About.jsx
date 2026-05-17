@@ -14,9 +14,6 @@ const About = ({ id }) => {
                 </p>
                 <DownloadCV/>
             </div>
-            <div className="area-foto">
-                <img className="foto" src="/foto-walmir.jpeg" alt="Minha foto" />
-            </div>
         </div>
         <h1 className='topico'>Ferramentas</h1>
         <div className='sessao2'>

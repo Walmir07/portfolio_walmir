@@ -1,19 +1,17 @@
 .container-home {
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  flex-direction: row;
+  min-height: 100vh;
   width: 100%;
   align-items: flex-start;
-  /*background-color:aquamarine;*/
 }
   
 .elementos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   width: 50%;
-  /*background-color: lightcoral;*/
   flex-grow: 1;
   padding: 20px;
   gap: 30px;
@@ -29,12 +27,13 @@
 }
   
 .paragrafo1 {
-  font-size: 25px;
+  font-size: 20px;
   color: #48DCFD;
 }
 
 .paragrafo-home {
-  font-size: 25px;
+  font-size: 20px;
+  font-family: inter;
   margin: 20px 0 20px 0;
   word-wrap: break-word;
   white-space: normal;
@@ -46,6 +45,21 @@
   width: 30px;
   border-radius: 5px;
   margin-right: 35px;
+}
+
+.area-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  padding: 20px;
+}
+
+.foto {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
 }
 
 /*    Responsividade     */

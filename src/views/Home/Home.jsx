@@ -16,11 +16,9 @@ const Home = ({ id }) => {
           <h1 className='animacao'>
             <TypeAnimation
                 sequence={[
-                    '<Desenvolvedor Full-Stack/>',
+                    'Desenvolvedor Full-Stack',
                     1500,
-                    '<Desenvolvedor Web/>',
-                    1500,
-                    '<Desenvolvedor Mobile/>',
+                    'Desenvolvedor Web',
                     1500,
                 ]}
                 repeat={Infinity}
@@ -42,6 +40,9 @@ const Home = ({ id }) => {
                 <img className='img-contato' src={LogoInstagram} alt="logo do Instagram"/>
             </a>
           </div>
+        </div>
+        <div className='area-foto'>
+            <img className="foto" src="/foto-walmir.jpg" alt="Minha foto" />
         </div>
     </div>
   )
