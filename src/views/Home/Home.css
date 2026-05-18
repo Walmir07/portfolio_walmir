@@ -86,6 +86,14 @@
   cursor: pointer;
 }
 
+.link-contatos:hover {
+  border-color: #DDE4FF;
+
+  box-shadow:
+    0 0 5px rgba(221, 228, 255, 0.8),
+    0 0 10px rgba(187, 198, 255, 0.6);
+}
+
 .logos {
     height: 20px;
     width: 20px;

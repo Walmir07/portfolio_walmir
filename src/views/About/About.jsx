@@ -2,7 +2,6 @@ import React from 'react';
 import './About.css';
 import Tools from '../../components/Tools/Tools.jsx';
 import { tecnologias } from '../../constants.js';
-import DownloadCV from '../../components/DownloadCV/DownloadCV.jsx';
 import { Timeline } from '../../components/Timeline/Timeline.jsx';
 
 const About = ({ id }) => {

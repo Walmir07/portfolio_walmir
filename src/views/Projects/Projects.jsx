@@ -53,6 +53,8 @@ const Projects = ({ id }) => {
             iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoMongodb, LogoGit]}
         />
 
+        <hr/>
+
     </div>
   )
 }

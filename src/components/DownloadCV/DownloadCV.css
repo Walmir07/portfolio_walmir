@@ -16,9 +16,11 @@
 }
 
 .downloadCV:hover {
-    background-color: #070B1B;
-    border: 2px solid #BBC6FF;
-    color: #BBC6FF;
+  border-color: #DDE4FF;
+
+  box-shadow:
+    0 0 5px rgba(221, 228, 255, 0.8),
+    0 0 10px rgba(187, 198, 255, 0.6);
 }
 
 .logos {
