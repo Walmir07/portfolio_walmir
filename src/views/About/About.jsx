@@ -3,6 +3,7 @@ import './About.css';
 import Tools from '../../components/Tools/Tools.jsx';
 import { tecnologias } from '../../constants.js';
 import DownloadCV from '../../components/DownloadCV/DownloadCV.jsx';
+import { Timeline } from '../../components/Timeline/Timeline.jsx';
 
 const About = ({ id }) => {
   return (
@@ -12,8 +13,16 @@ const About = ({ id }) => {
             <div className="area-descricao">
                 <p className='paragrafo-padrao'>Olá, me chamo Walmir Lima e sou graduando em Análise e Desenvolvimento de Sistemas e Técnico em Informática pelo IFPB. Sou entusiasta no mundo da programação e um desenvolvedor apaixonado por tecnologia, sempre em buscando crescimento profissional. Gosto de explorar novos desafios que ampliem minhas habilidades e me permitam criar soluções inovadoras. Com um forte interesse em desenvolvimento fullstack, estou constantemente aprendendo e aprimorando meus conhecimentos para contribuir com projetos que fazem a diferença.
                 </p>
-                <DownloadCV/>
+
+                <p className='paragrafo-padrao'>Além da programação, valorizo o trabalho em equipe, a organização e a busca contínua por evolução técnica e pessoal. Tenho interesse em desenvolver aplicações modernas, eficientes e bem estruturadas, aplicando boas práticas de desenvolvimento e criando experiências que unam desempenho, funcionalidade e design. Meu objetivo é construir uma carreira sólida na área de tecnologia, participando de projetos desafiadores que me permitam gerar impacto real e evoluir constantemente como desenvolvedor.
+                </p>
+                
             </div>
+
+            <div className='area-timeline'>
+                <Timeline></Timeline>
+            </div>
+
         </div>
         <h1 className='topico'>Ferramentas</h1>
         <div className='sessao2'>

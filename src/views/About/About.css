@@ -11,19 +11,15 @@
 .sessao1 {
   /*background-color: beige;*/
   display: flex;
+  flex-direction: column;
 }
   
 .area-descricao {
-  width: 50%;
   margin: 20px 0 20px 0;
 }
   
-.area-foto {
+.area-timeline{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  /*background-color: #48DCFD;*/
 }
 
 .paragrafo-padrao {
