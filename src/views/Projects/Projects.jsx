@@ -22,6 +22,7 @@ const Projects = ({ id }) => {
             foto="/foto-recruitsync.jpeg"
             descricao="O RecruitSync é um sistema desenvolvido para gerenciar e otimizar a seleção de candidatos em projetos de pesquisa e extensão. Com ele, o coordenador do projeto pode acessar os dados dos inscritos, avaliá-los em diferentes etapas e selecionar os mais aptos para integrar a sua equipe. Esse software foi criado para atender a necessidade de um professor que enfrentou dificuldades na formalização desse processo, o sistema se tornou uma solução eficiente para tornar a seleção mais organizada, ágil e precisa. Seu desenvolvimento foi feito por meio de tecnologias modernas e integração com banco de dados."
             linkRepositorio="https://github.com/Walmir07/RecruitSync"
+            linkSite="https://recruit-sync.vercel.app/"
             iconesTec={[LogoJavaScript, LogoReact, LogoNext, LogoPostgres, LogoGit, LogoFigma]}
         />
 
@@ -30,6 +31,7 @@ const Projects = ({ id }) => {
             foto="/foto-ecofy.png"
             descricao="O Ecofy funciona como um catálogo full-stack, onde o usuário terá libardade de utilizar diversas funcionalidades para cadastrar, visualizar, atualizar ou deletar informações de plantas que estão cadastradas em um banco de dados, além disso, sua criação foi feita para aplicar conhecimentos e também torna-lo base para outros projetos maiores que virão no futuro. Esse projeto possui front-end e back-end separados, desenvolvidos em ReactJS e Node.js respectivamente, mas conectados juntamente com um banco de dados MongoDB, buscando sempre utilizar boas práticas de desenvolvimento, assim como tecnologias modernas e importantes."
             linkRepositorio="https://github.com/Walmir07/ecofy_web"
+            linkSite="#"
             iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoCloudinary, LogoMongodb, LogoGit, LogoFigma]}
         />
 
@@ -38,6 +40,7 @@ const Projects = ({ id }) => {
             foto="/foto-spotify-clone.jpeg"
             descricao="Este projeto de clone teve como objetivo recriar a experiência do Spotify, utilizando diversas tecnologias modernas e integração com banco de dados. Esse sistema permite que os usuários busquem músicas e artistas, reproduzam faixas e desfrutem de uma experiência imersiva. Desenvolvido durante a Jornada FullStack da Hashtag Treinamentos, este projeto foi muito importante por ampliar meus conhecimentos em desenvolvimento FullStack."
             linkRepositorio="https://github.com/Walmir07/projeto-spotify-fullstack"
+            linkSite="#"
             iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoMongodb, LogoGit]}
         />
 
@@ -46,6 +49,7 @@ const Projects = ({ id }) => {
             foto="/tela-portfolio.png"
             descricao="Este projeto se baseia em um portfólio responsável por apresentar informações e projetos pessoais desenvolvidos durente o meu aprendizado de programação. Durante o desenvolvimento desse projeto pude fazer uso de diversas ferramentas importantes e até mesmo aplicar meus conhecimentos deprogramação, pois por se tratar de um projeto próprio, estive desde a prototipação, até desenvolvimento das interfaces e funcionalidades."
             linkRepositorio="https://github.com/Walmir07/portfolio-walmir"
+            linkSite="https://portfolio-walmir.vercel.app/"
             iconesTec={[LogoJavaScript, LogoReact, LogoNode, LogoExpress, LogoMongodb, LogoGit]}
         />
 

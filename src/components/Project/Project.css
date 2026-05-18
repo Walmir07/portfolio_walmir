@@ -10,58 +10,63 @@
 .sessao-imagem {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 40%;
 }
 
 .sessao-informacoes {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     padding: 0 20px;
 }
 
 .foto-projeto {
     height: 340px;
     width: 540px;
-    border: 3px solid white;
+    border: 2px solid #BBC6FF;
+    border-radius: 15px;
 }
 
 .nome-projeto {
-    font-size: 30px;
+    font-size: 35px;
     color: #BBC6FF;
 }
 
 .descricao {
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.repositorio {
+.repositorio, .site {
     display: flex;
-    height: 40px;
-    width: 140px;
+    height: 55px;
+    width: 200px;
     align-items: center;
     padding: 10px;
     gap: 15px;
     text-decoration: none;
     border-radius: 10px;
-    background-color: #D9D9D9;
+    background-color: #070B1B;
+    border: 2px solid #BBC6FF;
+    color: #BBC6FF;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
-.nome-rep {
-    font-size: 15px;
-    color: black;
+.nome-rep, .nome-site {
+    font-size: 20px;
+    color: #BBC6FF;
 }
 
-.logo-repositorio {
+.logo-repositorio, .logo-site {
     height: 30px;
     width: 30px;
     border-radius: 20px;
 }
 
-.repositorio-tecnologias {
+.repositorio-acoes {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
 }
 
