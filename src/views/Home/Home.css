@@ -3,6 +3,7 @@
   flex-direction: row;
   min-height: 100vh;
   width: 100%;
+  padding: 0 100px 0 100px;
   align-items: flex-start;
 }
   
@@ -58,8 +59,8 @@
 
 .foto {
   border-radius: 20px;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
 }
 
 .acoes {

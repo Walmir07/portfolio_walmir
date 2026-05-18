@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   align-items: flex-start;
-  padding: 30px;
+  padding: 0 100px 0 100px;
   /*background-color:aquamarine;*/
 }
   
@@ -36,8 +36,10 @@
 .ferramentas {
   display: grid;
   align-items: center;
+  justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  padding: 100px;
 }
 
 /*    Responsividade     */

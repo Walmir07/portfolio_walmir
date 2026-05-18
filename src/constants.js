@@ -1,27 +1,27 @@
 export const tecnologias = [
 
-    { name: "JavaScript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", alt:"JavaScript"},
+    { name: "JavaScript", link: "/javascript.png", alt:"JavaScript"},
 
-    { name: "Java", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", alt:"Java"},
+    { name: "Java", link: "/java.png", alt:"Java"},
 
-    { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt:"HTML"},
+    { name: "HTML", link: "/html-5.png", alt:"HTML"},
 
-    { name: "css", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt:"CSS"},
+    { name: "css", link: "/css-3.png", alt:"CSS"},
 
-    { name: "React", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", alt:"React"},
+    { name: "React", link: "react.png", alt:"React"},
 
     { name: "Next", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", alt:"Next"},
 
-    { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
+    { name: "React Native", link: "/react.png", alt: "React Native" },
 
-    { name: "Node", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", alt:"Node"},
+    { name: "Node", link: "/node-js.png", alt:"Node"},
 
-    { name: "Postgres", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", alt:"PostgreSQL"},
+    { name: "Postgres", link: "postgre.png", alt:"PostgreSQL"},
 
-    { name: "Vercel", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg", alt:"vercel"},
+    { name: "Vercel", link: "/vercel.png", alt:"vercel"},
 
-    { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", alt:"Git"},
+    { name: "Git", link: "git.png", alt:"Git"},
 
-    { name: "GitHub", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", alt:"GitHub"}
+    { name: "GitHub", link: "github.png", alt:"GitHub"}
 
 ];

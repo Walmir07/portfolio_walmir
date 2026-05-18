@@ -1,13 +1,16 @@
 .project {
     display: flex;
     margin: 20px 0 50px 0;
+    padding: 50px 0;
+    border-top: 2px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .sessao-imagem {
     display: flex;
     align-items: center;
     width: 50%;
-    /*background-color: rgb(74, 222, 82);*/
 }
 
 .sessao-informacoes {
@@ -15,11 +18,10 @@
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    /*background-color: rgb(53, 151, 151);*/
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 
-.foto-projeto{
+.foto-projeto {
     height: 340px;
     width: 540px;
     border: 3px solid white;
@@ -60,6 +62,7 @@
 .repositorio-tecnologias {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .tecnologias-usadas {
@@ -78,13 +81,13 @@
     width: 40px;
 }
 
-/*    Responsividade     */
+/* Responsividade */
 
 /* Notebooks e telas médias */
 @media (max-width: 1199px) {
 
 }
-  
+
 /* Tablets */
 @media (max-width: 991px) {
 
@@ -92,48 +95,52 @@
 
 /* Celulares grandes */
 @media (max-width: 767px) {
-    
+
 }
 
 /* Celulares pequenos */
 @media (max-width: 575px) {
-    .project{
+    .project {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 30px;
+        padding: 30px 0;
         gap: 60px;
     }
-    .sessao-informacoes{
+
+    .sessao-informacoes {
         width: 100%;
         gap: 50px;
     }
-    .nome-projeto{
+
+    .nome-projeto {
         font-size: 40px;
     }
+
     .sessao-imagem {
         justify-content: center;
         width: 100%;
     }
+
     .descricao {
         font-size: 30px;
         word-wrap: break-word;
         white-space: normal;
         text-align: justify;
     }
-    .foto-projeto{
+
+    .foto-projeto {
         height: 450px;
         width: 740px;
         border: 3px solid white;
     }
 
     .repositorio {
-        display: flex;
         height: 60px;
         width: 200px;
         padding: 10px;
         gap: 15px;
     }
-    
+
     .nome-rep {
         font-size: 22px;
     }
@@ -142,17 +149,13 @@
         height: 50px;
         width: 50px;
     }
-    
+
     .tecnologias-usadas {
-        display: flex;
         gap: 25px;
-        overflow-x: auto;
     }
-    
+
     .icone {
         height: 60px;
         width: 60px;
     }
-
-
 }

@@ -4,28 +4,58 @@
   height: 100%;
   width: 100%;
   align-items: flex-start;
-  padding: 30px;
-  /*background-color:aquamarine;*/
+  padding: 0 100px;
+  box-sizing: border-box;
 }
 
-/*    Responsividade     */
+/* Linha separadora entre os projetos */
+.container-projects hr {
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 30px 0;
+}
+
+/* Responsividade */
 
 /* Notebooks e telas médias */
 @media (max-width: 1199px) {
-
+  .container-projects {
+    padding: 0 70px;
+  }
 }
-  
+
 /* Tablets */
 @media (max-width: 991px) {
+  .container-projects {
+    padding: 0 50px;
+  }
 
+  .container-projects hr {
+    margin: 25px 0;
+  }
 }
 
 /* Celulares grandes */
 @media (max-width: 767px) {
-    
+  .container-projects {
+    padding: 0 25px;
+  }
+
+  .container-projects hr {
+    height: 1px;
+    margin: 20px 0;
+  }
 }
 
 /* Celulares pequenos */
 @media (max-width: 575px) {
+  .container-projects {
+    padding: 0 15px;
+  }
 
+  .container-projects hr {
+    margin: 15px 0;
+  }
 }
