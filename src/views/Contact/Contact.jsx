@@ -24,7 +24,7 @@ const Contact = ({ id }) => {
         
         <div className="sessao-contatos">
           <h2 className="titulos-form">Email</h2>
-          <p className='paragrafo-padrao'>walmirlima046@gmail.com</p>
+          <p className='paragrafo-padrao'>walmirlima.dev@gmail.com</p>
           <h2 className="titulos-form">Social</h2>
           <div className='redes-sociais'>
               <a href='https://www.linkedin.com/in/walmir-lima-da-silva-442300283/' target='_blank'>
