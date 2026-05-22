@@ -1,7 +1,8 @@
 .tools {
     display: flex;
     height: 90px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     background-color: #070B1B;
     border: 2px solid #BBC6FF;
     margin-top: 30px;

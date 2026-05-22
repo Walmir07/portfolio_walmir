@@ -84,12 +84,15 @@
     display: flex;
     gap: 30px;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .tecnologias-usadas {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    overflow-x: auto;
+    margin: 25px 0;
 }
 
 .tecnologias-usadas::-webkit-scrollbar {
