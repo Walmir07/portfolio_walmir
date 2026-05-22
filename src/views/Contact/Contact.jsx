@@ -51,7 +51,7 @@ const Contact = ({ id }) => {
 
           <h2 className="titulos-form">Email</h2>
 
-          <p className='paragrafo-padrao'>
+          <p className='texto-email'>
             walmirlima.dev@gmail.com
           </p>
 
