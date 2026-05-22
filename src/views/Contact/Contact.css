@@ -31,11 +31,17 @@
   width: 100%;
   max-width: 580px;
   font-size: 15px;
-  color: black;
+  color: #fff;
+  background-color: #070B1B;
+  border: 2px solid #BBC6FF;
   border-radius: 10px;
   padding: 15px;
-  border: none;
   margin: 20px 0;
+  outline: none;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .mensagem {
@@ -43,12 +49,18 @@
   width: 100%;
   max-width: 580px;
   font-size: 15px;
-  color: black;
+  color: #fff;
+  background-color: #070B1B;
+  border: 2px solid #BBC6FF;
   border-radius: 10px;
   padding: 15px;
-  border: none;
   margin: 20px 0;
   resize: none;
+  outline: none;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .enviar-form {
@@ -59,22 +71,31 @@
   width: 100%;
   max-width: 580px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #070B1B;
+  color: #BBC6FF;
+  border: 2px solid #BBC6FF;
   border-radius: 10px;
-  border: none;
-  margin: 20px 0;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 20px 0;
   transition:
-    transform 0.45s ease,
-    background-color 0.45s ease,
-    box-shadow 0.45s ease;
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .enviar-form:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
+  background-color: #121b42;
+  border-color: #9FB2FF;
   box-shadow:
       0 0 12px rgba(159, 178, 255, 0.30),
       0 0 28px rgba(159, 178, 255, 0.18);
+  color: #F2F5FF;
 }
 
 .sessao-contatos {
