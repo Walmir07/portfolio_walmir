@@ -51,7 +51,23 @@
     color: #BBC6FF;
     justify-content: space-around;
     cursor: pointer;
+    transition:
+        transform 0.45s ease,
+        background-color 0.45s ease,
+        border-color 0.45s ease,
+        box-shadow 0.45s ease,
+        color 0.45s ease;
 }
+
+.repositorio:hover, .site:hover {
+    transform: scale(1.04);
+    background-color: #121b42;
+    border-color: #A7B8FF;
+    box-shadow:
+        0 0 10px rgba(167, 184, 255, 0.28),
+        0 0 24px rgba(167, 184, 255, 0.16);
+}
+
 
 .nome-rep, .nome-site {
     font-size: 20px;
