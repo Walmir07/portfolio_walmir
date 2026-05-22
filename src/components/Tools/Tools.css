@@ -10,6 +10,20 @@
     border-radius: 10px;
     padding: 10px;
     gap: 25px;
+    transition:
+        transform 0.45s ease,
+        background-color 0.45s ease,
+        border-color 0.45s ease,
+        box-shadow 0.45s ease;
+}
+
+.tools:hover {
+    transform: scale(1.04);
+    background-color: #121b42;
+    border-color: #9FB2FF;
+    box-shadow:
+        0 0 12px rgba(159, 178, 255, 0.30),
+        0 0 28px rgba(159, 178, 255, 0.18);
 }
   
 .logo-ferramenta {
